@@ -21,4 +21,3 @@ Route::delete('/todo/{id}', 'TodoController@delete')->name('todo.delete');
 Route::post('/todo/{id}/complete','TodoController@complete')->name('todo.complete');
 
 
-//https://giztech.gizumo-inc.work/lesson/42/609 S18非同期通信を実装するからスタート//
